@@ -2,9 +2,22 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Mosam Digital - Agence web & solutions numériques',
+  title: 'Mohamed Ndiaye - Portfolio',
   description:
-    'Mosam Digital, filiale de Mosam Studio, est une agence web & solutions numériques qui conçoit, développe et maintient des sites et solutions digitales sur mesure pour des clients partout dans le monde.',
+    'Portfolio de Mohamed Ndiaye, étudiant en ingénierie à l\'ECE Paris, passionné par la cybersécurité, les réseaux et le développement web. CV et lettre de motivation.',
+  openGraph: {
+    title: 'Mohamed Ndiaye - Portfolio',
+    description:
+      'Portfolio de Mohamed Ndiaye, étudiant en ingénierie à l\'ECE Paris, passionné par la cybersécurité, les réseaux et le développement web.',
+    type: 'website',
+    images: ['/images/photo_momo.jpeg'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mohamed Ndiaye - Portfolio',
+    description:
+      'Portfolio de Mohamed Ndiaye, étudiant en ingénierie à l\'ECE Paris, cybersécurité, réseaux et développement web.',
+  },
 }
 
 export default function RootLayout({
