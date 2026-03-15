@@ -1,0 +1,25 @@
+.photo {
+  border-radius: 12px;
+  background: var(--gradient-primary);
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.3);
+  flex-shrink: 0;
+}
+
+.photoImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 6rem;
+  font-weight: 700;
+  background: var(--gradient-primary);
+}
